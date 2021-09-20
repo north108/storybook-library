@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Button } from './Button';
+import { Dropdown } from './dropdown';
 
 storiesOf('Practice', module)
- .add('dropdown ', () => <Button primary={true} label="Button"/>);
+ .add('dropdown ', () => <Dropdown />);
 
